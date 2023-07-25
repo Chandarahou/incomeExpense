@@ -1,21 +1,25 @@
-## installation Process
+## Installation Process
 
-Clone this repository-
--[git clone https://github.com/nayeemdev/incomeExpense.git]
-
-Go to incomeExpense Folder
--[cd incomeExpense]
-
-Copy .env.example to .env
--[cp .env.example .env]
--[Create a database and set information to .env]
-
+Clone this repository
+```sh
+git clone https://github.com/nayeemdev/incomeExpense.git
+```
+Goto incomeExpense Folder
+```sh
+cd incomeExpense
+```
+Copy .env.example to .env 
+```sh
+cp .env.example .env
+```
 Install composer for vendor file
--[composer install]
-
-Run project in local host
--[php artisan serve]
-
+```sh
+composer install
+```
+Then run 
+```sh
+php artisan serve
+```
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
